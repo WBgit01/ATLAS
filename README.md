@@ -14,8 +14,4 @@ It imports biometric attendance exports from Excel, matches students by **normal
 
 1. Node.js (v22+ works well)
 2. Python 3.x
-<<<<<<< HEAD
 3. MongoDB (ensure `mongod` is available)
-=======
-3. MongoDB (ensure `mongod` is available)
->>>>>>> adc6500ec23cbe1e6c84700335c31284f8145213
