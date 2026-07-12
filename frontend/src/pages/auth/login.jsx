@@ -103,7 +103,7 @@ export default function LoginPage() {
             </div>
             <div className="flex flex-col justify-center gap-2">
               <span className="text-xl font-bold tracking-tight text-white">
-                ATL
+                ATLAS
               </span>
               <p className="inline-flex w-fit rounded-full bg-white/10 px-3 py-1 text-xs font-medium tracking-wide text-white/80 uppercase ring-1 ring-white/15">
                 College of Nursing — CAHS
@@ -147,7 +147,7 @@ export default function LoginPage() {
             <div className="flex size-8 items-center justify-center rounded-xl bg-white/20 text-white ring-1 ring-white/25 backdrop-blur-sm">
               <Fingerprint className="size-4" />
             </div>
-            <span className="text-sm font-semibold text-white">ATL</span>
+            <span className="text-sm font-semibold text-white">ATLAS</span>
           </div>
         </header>
 

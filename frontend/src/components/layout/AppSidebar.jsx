@@ -136,7 +136,7 @@ export function AppSidebar() {
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight group-data-[collapsible=icon]:hidden">
                   <span className="truncate font-semibold tracking-tight text-[#3D0066]">
-                    ATL
+                    ATLAS
                   </span>
                   <span className="truncate text-[11px] text-muted-foreground">
                     Attendance Dashboard
