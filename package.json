@@ -1,0 +1,21 @@
+{
+  "name": "atl-attendance-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student Attendance Analytics Dashboard - MERN Stack",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"wait-on http://localhost:5000/api/health -t 60000 && npm run dev --prefix frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "build": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "wait-on": "^8.0.5"
+  },
+  "dependencies": {
+    "mongodb": "^7.3.0"
+  }
+}
